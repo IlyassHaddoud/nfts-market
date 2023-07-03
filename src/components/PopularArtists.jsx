@@ -3,7 +3,7 @@ import artistImages from "../assets/artist-frame.png";
 const PopularArtists = () => {
   return (
     <div className="popular-artists">
-      <div className="content">
+      <div className="content container">
         <div className="main-content">
           <div className="title">
             Popular <span>Artists</span> On This Week

@@ -3,7 +3,7 @@ import nfts from "../assets/create-and-sell-image.svg";
 const CreateAndSell = () => {
   return (
     <div className="createandsell">
-      <div className="content">
+      <div className="content container">
         <div className="main-content">
           <div className="text">
             <div className="title">

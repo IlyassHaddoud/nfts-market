@@ -5,7 +5,7 @@ const Subscribtion = () => {
   return (
     <div className="subscribtion">
       <img className="cloud" src={cloud} />
-      <div className="content">
+      <div className="content container">
         <div className="image">
           <img src={formImage} />
         </div>

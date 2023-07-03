@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <div className="hero">
       <img className="cloud" src={cloud} />
-      <div className="nav-bar">
+      <div className="nav-bar container">
         <div className="nav-links">
           <ul>
             <li className="marketplace">Marketplace</li>
@@ -19,7 +19,7 @@ const Hero = () => {
           <button>Contact</button>
         </div>
       </div>
-      <div className="hero-content">
+      <div className="hero-content container">
         <div className="content">
           <div className="text">
             <div className="title">
