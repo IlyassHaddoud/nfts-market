@@ -116,6 +116,17 @@
   width: 100%;
   margin: auto;
   padding-top: 100px;
+  position: relative;
+  z-index: 100;
+}
+
+.week-work .cloud {
+  width: 631px;
+  height: 458px;
+  position: absolute;
+  left: 50%;
+  top: 60%;
+  z-index: -1;
 }
 
 .week-work .content {
@@ -214,4 +225,183 @@
 .createandsell .content img {
   width: 540px;
   height: 359px;
+}
+
+.popular-artists {
+  background-color: #1e1e1e;
+  width: 100%;
+  margin: auto;
+  padding-top: 100px;
+}
+
+.popular-artists .content {
+  width: 85%;
+  margin: auto;
+}
+
+.popular-artists .content .main-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.popular-artists .content .main-content .title {
+  color: white;
+  font-size: 48px;
+  width: 40%;
+}
+
+.popular-artists .content .main-content .title span {
+  color: #d6ef0e;
+}
+.popular-artists .content .main-content .btn button {
+  background-color: #d6ef0e;
+  color: white;
+  border: none;
+  width: 148px;
+  height: 48px;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.popular-artists .content .frame {
+  padding-top: 50px;
+}
+
+.popular-artists .content .frame img {
+  width: 100%;
+}
+
+.subscribtion {
+  background-color: #1e1e1e;
+  width: 100%;
+  padding-top: 100px;
+  position: relative;
+  z-index: 100;
+}
+
+.subscribtion .cloud {
+  width: 631px;
+  height: 458px;
+  position: absolute;
+  left: -10%;
+  top: 1%;
+  z-index: -1;
+}
+
+.subscribtion .content {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.subscribtion .content .image img {
+  width: 530px;
+  height: 358px;
+}
+
+.subscribtion .content .image {
+}
+
+.subscribtion .content .form {
+  width: 40%;
+}
+
+.subscribtion .content .form .title {
+  color: white;
+  font-size: 48px;
+}
+
+.subscribtion .content .form .title span {
+  color: #d6ef0e;
+}
+
+.subscribtion .content .form .paragraph {
+  color: white;
+  font-size: 16px;
+}
+
+.subscribtion .content .form .inputs {
+  margin-top: 20px;
+}
+
+.subscribtion .content .form .inputs input {
+  background-color: #131e3a;
+  color: #fffffdb8;
+  outline: none;
+  width: 465px;
+  height: 60px;
+  border: none;
+  padding: 16px 24px;
+  border-radius: 8px;
+}
+
+.subscribtion .content .form .inputs button {
+  border-radius: 8px;
+  background: #d6ef0e;
+  border: none;
+  outline: none;
+  height: 49px;
+  width: 200px;
+  font-size: 16px;
+  color: white;
+  position: relative;
+  bottom: 54px;
+  left: 260px;
+}
+
+.footer {
+  background-color: #1e1e1e;
+  width: 100%;
+  padding-top: 150px;
+  color: #fffffd;
+}
+
+.footer .content {
+  width: 85%;
+  margin: auto;
+}
+
+.footer .content .upper-footer {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.footer .content .upper-footer .left {
+  width: 30%;
+}
+
+.footer .content .upper-footer .left .social {
+  margin-top: 20px;
+}
+
+.footer .content .upper-footer .right {
+  width: 70%;
+  display: flex;
+  justify-content: flex-end;
+  gap: 50px;
+}
+
+.footer .content .upper-footer .right ul {
+  list-style: none;
+}
+
+.footer .content .upper-footer .right li:first-child {
+  padding-block: 20px;
+}
+
+.footer .content .bottom-footer {
+  display: flex;
+  justify-content: space-between;
+  padding-block: 20px;
+}
+
+.footer .content .bottom-footer .policies {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
 }
