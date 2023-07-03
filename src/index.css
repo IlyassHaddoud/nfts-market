@@ -34,6 +34,10 @@
   gap: 40px;
 }
 
+.hero .nav-bar .nav-links ul li {
+  cursor: pointer;
+}
+
 .hero .nav-bar .nav-button button {
   background-color: #d6ef0e;
   color: white;
