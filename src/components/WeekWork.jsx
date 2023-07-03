@@ -7,7 +7,7 @@ const WeekWork = () => {
   return (
     <div className="week-work">
       <img className="cloud" src={cloud} />
-      <div className="content">
+      <div className="content container">
         <div className="frame">
           <div className="title">
             <span>Amazing</span> and Super Unique Art of This <span>Week</span>

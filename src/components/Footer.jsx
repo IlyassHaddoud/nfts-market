@@ -3,7 +3,7 @@ import socialIcons from "../assets/social-icons.png";
 const Footer = () => {
   return (
     <div className="footer">
-      <div className="content">
+      <div className="content container">
         <div className="upper-footer">
           <div className="left">
             <div className="para">
