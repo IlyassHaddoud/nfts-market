@@ -385,6 +385,10 @@
   margin-top: 20px;
 }
 
+.footer .content .upper-footer .left .social img {
+  cursor: pointer;
+}
+
 .footer .content .upper-footer .right {
   width: 70%;
   display: flex;
